@@ -26,15 +26,16 @@ setInterval(() => {
     if (second > 0) {
         time[4] = nol(second);
     }
-    let content = '本站已经运行了';
+    // 运行时间
+    let runtime = "<div id='runtime'>" + '本站已经运行了';
     if (time[0] > 0) {
-        content += time[0] + '年';
+        runtime += ' ' + time[0] + ' 年';
     }
     if (time[1] > 0) {
-        content += time[1] + '天';
+        runtime += ' ' + time[1] + ' 天';
     }
-    content += time[2] + '小时' + time[3] + '分钟' + time[4] + '秒 !';
-    currentTimeHtml = "<div id='runtime'>" + content + '</div>';
-
+    runtime += ' ' + time[2] + ' 小时 ' + time[3] + ' 分钟 ' + time[4] + ' 秒 ! ' + '</div>';
+    // 合并html
+    currentTimeHtml = runtime;
     document.getElementById("workboard").innerHTML = currentTimeHtml;
 }, 1000);
