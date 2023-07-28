@@ -348,6 +348,17 @@ div#archive {
 #aside-content #card-toc .toc-content .toc-link.active {
   border-radius: 8px !important;
 }
+
+/* 目录字体调整 */
+#aside-content #card-toc .toc-content{
+  font-size: 14px !important;
+}
+
+/* 目录的外边距调整 */
+#aside-content #card-toc .toc-content > * {
+  margin: 0 9px !important;
+}
+
 /* 标题样式 */
 #article-container h1:before,
 #article-container h2:before,
