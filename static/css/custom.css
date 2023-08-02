@@ -36,14 +36,14 @@
 /* 字体设置 */
 @font-face {
   font-family: "LXWK";
-  src: url(http://blog.resince.fun/static/font/LXWK.woff2);
+  src: url(https://resince.fun/static/font/LXWK.woff2);
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 @font-face {
   font-family: "Consolas";
-  src: url(http://blog.resince.fun/static/font/Consolas.woff2);
+  src: url(https://resince.fun/static/font/Consolas.woff2);
   font-weight: normal;
   font-style: normal;
   font-display: block;
